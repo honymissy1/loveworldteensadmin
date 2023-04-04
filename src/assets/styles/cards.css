@@ -1,0 +1,36 @@
+.card-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.card-container a.active{
+    background-color: rgb(33, 26, 56);
+    color: white;
+    border-radius: 7px;
+    box-shadow: .5px .5px 3px black;
+}
+
+
+.card-container .card{
+    min-width: 200px;
+    max-width: 400px;
+    flex: 1;
+    cursor: pointer;
+    padding: 10px 15px;
+    box-shadow: .5px .5px 3px black;
+    border-radius: 5px;
+}
+
+ 
+
+.card-container .card h2{
+    padding: 10px 0px 0px 0px
+}
+
+ .card-container .card b{
+    color: rgb(110, 206, 110);
+}
